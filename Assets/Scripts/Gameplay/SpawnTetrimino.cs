@@ -6,6 +6,8 @@ public class SpawnTetrimino : MonoBehaviour
 {
     public GameObject[] Tetriminoes;
     // Start is called before the first frame update
+    GameObject fallingBlock = null;
+
     void Start()
     {
         NewTetrimino();
@@ -14,6 +16,11 @@ public class SpawnTetrimino : MonoBehaviour
     // Update is called once per frame
     public void NewTetrimino()
     {
-        Instantiate(Tetriminoes[Random.Range(0, Tetriminoes.Length)], transform.position, Quaternion.identity);
+        fallingBlock = Instantiate(Tetriminoes[Random.Range(0, Tetriminoes.Length)], transform.position, Quaternion.identity);
+    }
+
+    public void SendToFallingBlock(string message)
+    {
+        fallingBlock.SendMessage(message);
     }
 }

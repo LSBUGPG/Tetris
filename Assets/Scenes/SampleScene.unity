@@ -204,15 +204,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 633852197}
-        m_MethodName: MoveRight
-        m_Mode: 1
+      - m_Target: {fileID: 1014781433}
+        m_MethodName: SendToFallingBlock
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MoveRight
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &14482832
@@ -351,15 +351,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 633852197}
-        m_MethodName: MoveLeft
-        m_Mode: 1
+      - m_Target: {fileID: 1014781433}
+        m_MethodName: SendToFallingBlock
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MoveLeft
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &265551241
@@ -739,15 +739,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 633852197}
-        m_MethodName: MoveDown
-        m_Mode: 1
+      - m_Target: {fileID: 1014781433}
+        m_MethodName: SendToFallingBlock
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MoveDown
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &579482123
@@ -904,7 +904,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633852196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6eea63b681184c94386fbe92fcd51a2e, type: 3}
   m_Name: 
@@ -1382,15 +1382,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 633852197}
-        m_MethodName: Rotate
-        m_Mode: 1
+      - m_Target: {fileID: 1014781433}
+        m_MethodName: SendToFallingBlock
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Rotate
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1589514858
